@@ -9,7 +9,18 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'slidein': 'slidein 15s linear infinite running alternate',
+      },
+
+      keyframes: {
+        slidein: {
+          '0%': { transform: 'translateX(-40%)' },
+        }
+      }
+
+    },
   },
   plugins: [],
 }

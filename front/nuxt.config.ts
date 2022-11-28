@@ -2,7 +2,7 @@ export default defineNuxtConfig({
     app: {
         pageTransition: { name: 'page', mode: 'out-in' },
         head: {
-            title: 'portfolio',
+            title: 'Alexis Balayre - Blockchain Developer',
             htmlAttrs: {
               lang: 'en'
             },
