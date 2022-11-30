@@ -74,11 +74,11 @@
       <div class="bg-white grid p-8 m-4 rounded-xl w-full ml-20 mr-20">
         <p class="text-3xl font-bold text-center">Experience</p>
         <div>
-          <p class="text-xl font-medium mt-2">Sept. 2022 - Now : Blockchain Developer at CoinShares</p>
-          <p class="text-xl font-medium mt-4">Sleepn : Sleep To Earn protocol</p>
-          <p class="text-xl font-medium mt-2">Sleepn : Sleep To Earn protocol</p>
-          <p class="text-xl font-medium mt-4">Sept 2021 : Beginning of my journey into Web3</p>
-          <p class="text-xl font-medium mt-4">2019 - 2021 : Use of Web2 technologies during my digital engineering studies.</p>
+          <p class="text-xl font-medium mt-4">Sept 2022 - Now : Blockchain Developer at <a class="underline decoration-sky-500 font-bold" href="https://coinshares.com/">CoinShares</a></p>
+          <p class="text-xl font-medium mt-4">Sept 2022 - Now : Vice President of the <a class="font-bold">Blockchain Lab</a> at <a class="underline decoration-sky-500 font-bold" href="https://fr.linkedin.com/company/garageisep">Garage Isep</a></p>
+          <p class="text-xl font-medium mt-4">May 2022 - Now : Blockchain Developer at <a class="underline decoration-sky-500 font-bold" href="https://github.com/SleepnClub/Sleepn-Contracts">Sleepn</a></p>
+          <p class="text-xl font-medium mt-4">Sept 2021 : Beginning of my journey into <a class="font-bold">Web3</a></p>
+          <p class="text-xl font-medium mt-4">2019 - 2021 : Exploring Web2 technologies during my digital engineering studies</p>
         </div>
       </div>
       <div class="bg-white grid p-8 m-4 rounded-xl w-full ml-20 mr-20">
