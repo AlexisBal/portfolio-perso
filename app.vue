@@ -70,7 +70,7 @@
       <p class="text-xl text-justify">My name is Alexis Balayre and I am a French <a class="text-xl font-bold">full-stack developer</a> specialized in <a class="text-xl font-bold">Web3</a>. I realize all the missions related to the creation of a <a class="text-xl font-bold">decentralized application (DApp)</a> from <a class="text-xl font-bold">smart contracts</a> to the <a class="text-xl font-bold">user interface</a>.</p>
     </div>
 
-    <div class="flex flex-col lg:flex-inline lg:pl-40 lg:pr-40 mb-10 mt-10 lg:mb-20 lg:mt-20 justify-center w-screen">
+    <div class="flex flex-col lg:flex-row lg:pl-40 lg:pr-40 mb-10 mt-10 lg:mb-20 lg:mt-20 justify-center w-screen">
       <div class="bg-white grid p-8 m-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20">
         <p class="text-3xl font-bold text-center">Experience</p>
         <div>
