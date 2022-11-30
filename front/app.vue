@@ -1,10 +1,10 @@
 <template>
   <div class="bg-[url('assets/img/bg.png')] bg-cover grid w-screen max-w-screen h-full sm:h-full min-h-screen min-w-screen sm:min-h-screen sm:min-w-screen md:min-h-screen md:min-w-screen bg-cover bg-no-repeat bg-fixed bg-center">
-    <div class="grid-flow-col grid pt-5 pb-5 w-screen h-fit bg-white lg:pl-8 lg:pr-8" >
-      <p class="font-sans lg:text-2xl text-lg text-center font-medium justify-self-start">Alexis Balayre</p>
+    <div class="grid-flow-col grid lg:pt-5 lg:pb-5 w-screen h-fit bg-white lg:pl-8 lg:pr-8 pt-4 pb-4 pl-4 pr-2" >
+      <p class="font-sans lg:text-2xl text-xl text-center font-medium justify-self-start">Alexis Balayre</p>
       <div class="justify-self-end flex">
         <!-- Phone -->
-        <a class="pl-4 pr-4" href="tel:+33695831470">
+        <a class="lg:pl-4 lg:pr-4 lg-2 pr-2" href="tel:+33695831470">
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             viewBox="0 0 24 24" 
@@ -14,14 +14,14 @@
           </svg>
         </a>
         <!-- Email -->
-        <a class="pl-4 pr-4" href="mailTo:alexis.balayre@gmail.com">
+        <a class="lg:pl-4 lg:pr-4 lg-2 pr-2" href="mailTo:alexis.balayre@gmail.com">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8">
             <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
             <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
           </svg>
         </a>
         <!-- Github -->
-        <a class="pl-4 pr-4" href="https://github.com/AlexisBal">
+        <a class="lg:pl-4 lg:pr-4 lg-2 pr-2" href="https://github.com/AlexisBal">
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             viewBox="0 0 496 512" 
@@ -31,7 +31,7 @@
           </svg>
         </a>
          <!-- Linkedin -->
-         <a class="pl-4 pr-4" href="https://fr.linkedin.com/in/alexis-balayre">
+         <a class="lg:pl-4 lg:pr-4 lg-2 pr-2" href="https://fr.linkedin.com/in/alexis-balayre">
           <svg
             class="w-8 h-8"
             xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@
           </svg>
         </a>
         <!-- Twitter -->
-        <a class="pl-4 pr-4" href="https://twitter.com/Belas_Eth">
+        <a class="lg:pl-4 lg:pr-4 lg-2 pr-2" href="https://twitter.com/Belas_Eth">
           <svg
             class="w-8 h-8"
             xmlns="http://www.w3.org/2000/svg"
@@ -57,21 +57,21 @@
       </div>
     </div>
 
-    <div class="bg-white w-fit h-fit grid grid-flow-row pl-6 pr-6 rounded-xl justify-self-center mt-8">
+    <div class="bg-white w-fit h-fit grid grid-flow-row lg:pl-6 lg:pr-6 rounded-xl justify-self-center mt-8">
       <div class="h-auto w-auto rounded-full justify-self-center">
-        <img class="w-40 rounded-full" src="./assets/img/alexis.png"/>
+        <img class="lg:w-40 w-20 rounded-full" src="./assets/img/alexis.png"/>
       </div>
-      <div class="pt-8 pb-8 self-center">
-        <p class="justify-self-center text-2xl font-medium self-center">Full Stack Web3 Developer</p>
+      <div class="lg:pt-8 p-4 lg:pb-8 self-center">
+        <p class="justify-self-center text-xl lg:text-2xl font-medium self-center">Full Stack Web3 Developer</p>
       </div>
     </div>
     
-    <div class="bg-white w-3/6 h-fit mt-20 p-4 rounded-xl justify-self-center">
+    <div class="bg-white m-4 lg:w-3/6 h-fit mt-10 lg:mt-20 p-4 rounded-xl justify-self-center">
       <p class="text-xl text-justify">My name is Alexis Balayre and I am a French <a class="text-xl font-bold">full-stack developer</a> specialized in <a class="text-xl font-bold">Web3</a>. I realize all the missions related to the creation of a <a class="text-xl font-bold">decentralized application (DApp)</a> from <a class="text-xl font-bold">smart contracts</a> to the <a class="text-xl font-bold">user interface</a>.</p>
     </div>
 
-    <div class="flex flex-inline pl-40 pr-40 mb-20 mt-20 justify-center w-screen">
-      <div class="bg-white grid p-8 m-4 rounded-xl w-full ml-20 mr-20">
+    <div class="flex flex-col lg:flex-inline lg:pl-40 lg:pr-40 mb-10 mt-10 lg:mb-20 lg:mt-20 justify-center w-screen">
+      <div class="bg-white grid p-8 m-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20">
         <p class="text-3xl font-bold text-center">Experience</p>
         <div>
           <p class="text-xl font-medium mt-4">Sept 2022 - Now : Blockchain Developer at <a class="underline decoration-sky-500 font-bold" href="https://coinshares.com/">CoinShares</a></p>
@@ -81,7 +81,7 @@
           <p class="text-xl font-medium mt-4">2019 - 2021 : Exploring Web2 technologies during my digital engineering studies</p>
         </div>
       </div>
-      <div class="bg-white grid p-8 m-4 rounded-xl w-full ml-20 mr-20">
+      <div class="bg-white grid p-8 m-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20">
         <p class="text-3xl font-bold text-center">My Services</p>
         <div>
           <p class="text-xl font-medium mt-6"><a class="text-xl font-bold">Creation</a> and <a class="text-xl font-bold">deployment</a> of smart contracts</p>
@@ -95,32 +95,32 @@
       </div>
     </div>
 
-    <div class="bg-white h-fit w-screen max-w-screen mb-20 p-4 flex overflow-hidden">
+    <div class="bg-white h-fit w-screen max-w-screen mb-10 lg:mb-20 p-4 flex overflow-hidden">
       <div class="flex w-screen max-w-screen animate-slidein">
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/docker-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/vs-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/typescript-logo.svg"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/solidity-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/remix-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/hardhat-logo.png"/>
-        <img class="h-20 w-20 mr-5 ml-8" src="./assets/img/foundry-logo.png"/>
-        <img class="h-20 w-25 mr-3 ml-4" src="./assets/img/ethersjs-logo.png"/>
-        <img class="h-20 w-20 mr-6 ml-3" src="./assets/img/web3js-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-6" src="./assets/img/nest-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/nuxtjs-logo.png"/>
-        <img class="h-20 w-25 mr-8 ml-8" src="./assets/img/react-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/docker-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/vs-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/typescript-logo.svg"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/solidity-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/remix-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/hardhat-logo.png"/>
-        <img class="h-20 w-20 mr-5 ml-8" src="./assets/img/foundry-logo.png"/>
-        <img class="h-20 w-25 mr-3 ml-4" src="./assets/img/ethersjs-logo.png"/>
-        <img class="h-20 w-20 mr-6 ml-3" src="./assets/img/web3js-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-6" src="./assets/img/nest-logo.png"/>
-        <img class="h-20 w-20 mr-8 ml-8" src="./assets/img/nuxtjs-logo.png"/>
-        <img class="h-20 w-25 mr-8 ml-8" src="./assets/img/react-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-8 ml-8" src="./assets/img/docker-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-8 ml-8" src="./assets/img/vs-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-8 ml-8" src="./assets/img/typescript-logo.svg"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-8 ml-8" src="./assets/img/solidity-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-8 ml-8" src="./assets/img/remix-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-8 ml-8" src="./assets/img/hardhat-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/foundry-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/ethersjs-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/web3js-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/nest-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/nuxtjs-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/react-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/docker-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/vs-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/typescript-logo.svg"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/solidity-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/remix-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/hardhat-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/foundry-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/ethersjs-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/web3js-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/nest-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/nuxtjs-logo.png"/>
+        <img class="lg:h-20 lg:w-20 w-10 h-10 mr-5 ml-8" src="./assets/img/react-logo.png"/>
       </div>
     </div>
 
