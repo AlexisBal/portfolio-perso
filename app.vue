@@ -66,12 +66,12 @@
       </div>
     </div>
     
-    <div class="bg-white ml-8 mr-8 lg:w-3/6 h-fit mt-10 lg:mt-20 p-6 rounded-xl justify-self-center">
+    <div class="bg-white ml-8 mr-8 lg:w-3/6 h-fit mt-10 lg:mt-20 p-6 md:p-8 rounded-xl justify-self-center">
       <p class="lg:text-xl md:text-xl text-lg text-justify">My name is Alexis Balayre and I am a French <a class="lg:text-xl md:text-xl text-lg font-bold">full-stack developer</a> specialized in <a class="lg:text-xl md:text-xl text-lg font-bold">Web3</a>. I realize all the missions related to the creation of a <a class="lg:text-xl md:text-xl text-lg  font-bold">decentralized application (DApp)</a> from <a class="lg:text-xl md:text-xl text-lg  font-bold">smart contracts</a> to the <a class="lg:text-xl md:text-xl text-lg  font-bold">user interface</a>.</p>
     </div>
 
     <div class="flex flex-col lg:flex-row lg:pl-40 lg:pr-40 mb-10 mt-10 lg:mb-20 lg:mt-20 justify-center w-screen">
-      <div class="bg-white grid p-6 lg:p-8 md:p-8 m-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20 md:ml-20 md:mr-20">
+      <div class="bg-white grid p-6 lg:p-8 md:p-8 mr-8 ml-8 mt-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20 md:ml-20 md:mr-20">
         <p class="lg:text-3xl text-2xl font-bold text-center">Experience</p>
         <div>
           <p class="lg:text-xl md:text-xl text-lg  font-medium mt-4">Sept 2022 - Now : Blockchain Developer at <a class="underline decoration-sky-500 font-bold" href="https://coinshares.com/">CoinShares</a></p>
@@ -81,7 +81,7 @@
           <p class="lg:text-xl md:text-xl text-lg  font-medium mt-4">2019 - 2021 : Exploring Web2 technologies during my digital engineering studies</p>
         </div>
       </div>
-      <div class="bg-white grid p-6 md:p-8 lg:p-8 m-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20 md:ml-20 md:mr-20">
+      <div class="bg-white grid p-6 md:p-8 lg:p-8 mr-8 ml-8 mt-10 md:mt-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20 md:ml-20 md:mr-20">
         <p class="lg:text-3xl text-2xl font-bold text-center">My Services</p>
         <div>
           <p class="lg:text-xl md:text-xl text-lg  font-medium mt-6"><a class="lg:text-xl md:text-xl text-lg  font-bold">Creation</a> and <a class="lg:text-xl md:text-xl text-lg  font-bold">deployment</a> of smart contracts</p>
