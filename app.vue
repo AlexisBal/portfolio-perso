@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[url('assets/img/bg.png')] bg-cover grid w-screen max-w-screen h-full sm:h-full min-h-screen min-w-screen sm:min-h-screen sm:min-w-screen md:min-h-screen md:min-w-screen bg-cover bg-no-repeat bg-fixed bg-center">
+  <div class="bg-[url('assets/img/bg.png')] grid w-screen max-w-screen h-full sm:h-full min-h-screen min-w-screen sm:min-h-screen sm:min-w-screen md:min-h-screen md:min-w-screen bg-cover bg-no-repeat bg-fixed bg-center">
     <div class="grid-flow-col grid lg:pt-5 lg:pb-5 w-screen h-fit bg-white lg:pl-8 lg:pr-8 pt-4 pb-4 pl-4 pr-2" >
       <p class="font-sans lg:text-2xl text-xl text-center font-medium justify-self-start">Alexis Balayre</p>
       <div class="justify-self-end flex">
@@ -66,31 +66,31 @@
       </div>
     </div>
     
-    <div class="bg-white m-4 lg:w-3/6 h-fit mt-10 lg:mt-20 p-4 rounded-xl justify-self-center">
-      <p class="text-xl text-justify">My name is Alexis Balayre and I am a French <a class="text-xl font-bold">full-stack developer</a> specialized in <a class="text-xl font-bold">Web3</a>. I realize all the missions related to the creation of a <a class="text-xl font-bold">decentralized application (DApp)</a> from <a class="text-xl font-bold">smart contracts</a> to the <a class="text-xl font-bold">user interface</a>.</p>
+    <div class="bg-white ml-8 mr-8 lg:w-3/6 h-fit mt-10 lg:mt-20 p-6 rounded-xl justify-self-center">
+      <p class="lg:text-xl md:text-xl text-lg text-justify">My name is Alexis Balayre and I am a French <a class="lg:text-xl md:text-xl text-lg font-bold">full-stack developer</a> specialized in <a class="lg:text-xl md:text-xl text-lg font-bold">Web3</a>. I realize all the missions related to the creation of a <a class="lg:text-xl md:text-xl text-lg  font-bold">decentralized application (DApp)</a> from <a class="lg:text-xl md:text-xl text-lg  font-bold">smart contracts</a> to the <a class="lg:text-xl md:text-xl text-lg  font-bold">user interface</a>.</p>
     </div>
 
     <div class="flex flex-col lg:flex-row lg:pl-40 lg:pr-40 mb-10 mt-10 lg:mb-20 lg:mt-20 justify-center w-screen">
-      <div class="bg-white grid p-8 m-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20">
-        <p class="text-3xl font-bold text-center">Experience</p>
+      <div class="bg-white grid p-6 lg:p-8 md:p-8 m-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20 md:ml-20 md:mr-20">
+        <p class="lg:text-3xl text-2xl font-bold text-center">Experience</p>
         <div>
-          <p class="text-xl font-medium mt-4">Sept 2022 - Now : Blockchain Developer at <a class="underline decoration-sky-500 font-bold" href="https://coinshares.com/">CoinShares</a></p>
-          <p class="text-xl font-medium mt-4">Sept 2022 - Now : Vice President of the <a class="font-bold">Blockchain Lab</a> at <a class="underline decoration-sky-500 font-bold" href="https://fr.linkedin.com/company/garageisep">Garage Isep</a></p>
-          <p class="text-xl font-medium mt-4">May 2022 - Now : Blockchain Developer at <a class="underline decoration-sky-500 font-bold" href="https://github.com/SleepnClub/Sleepn-Contracts">Sleepn</a></p>
-          <p class="text-xl font-medium mt-4">Sept 2021 : Beginning of my journey into <a class="font-bold">Web3</a></p>
-          <p class="text-xl font-medium mt-4">2019 - 2021 : Exploring Web2 technologies during my digital engineering studies</p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-4">Sept 2022 - Now : Blockchain Developer at <a class="underline decoration-sky-500 font-bold" href="https://coinshares.com/">CoinShares</a></p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-4">Sept 2022 - Now : Vice President of the <a class="font-bold">Blockchain Lab</a> at <a class="underline decoration-sky-500 font-bold" href="https://fr.linkedin.com/company/garageisep">Garage Isep</a></p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-4">May 2022 - Now : Blockchain Developer at <a class="underline decoration-sky-500 font-bold" href="https://github.com/SleepnClub/Sleepn-Contracts">Sleepn</a></p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-4">Sept 2021 : Beginning of my journey into <a class="font-bold">Web3</a></p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-4">2019 - 2021 : Exploring Web2 technologies during my digital engineering studies</p>
         </div>
       </div>
-      <div class="bg-white grid p-8 m-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20">
-        <p class="text-3xl font-bold text-center">My Services</p>
+      <div class="bg-white grid p-6 md:p-8 lg:p-8 m-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20 md:ml-20 md:mr-20">
+        <p class="lg:text-3xl text-2xl font-bold text-center">My Services</p>
         <div>
-          <p class="text-xl font-medium mt-6"><a class="text-xl font-bold">Creation</a> and <a class="text-xl font-bold">deployment</a> of smart contracts</p>
-          <p class="text-xl font-medium mt-2"><a class="text-xl font-bold">Performance</a> and <a class="text-xl font-bold">security testing</a> of smart contracts</p>
-          <p class="text-xl font-medium mt-2"><a class="text-xl font-bold">Optimisation</a> of smart contracts </p>
-          <p class="text-xl font-medium mt-2"><a class="text-xl font-bold">Integration</a> of smart contracts </p>
-          <p class="text-xl font-medium mt-2">Creation of <a class="text-xl font-bold">NFT collections</a></p>
-          <p class="text-xl font-medium mt-2">Creation of <a class="text-xl font-bold">crypto-currencies</a></p>
-          <p class="text-xl font-medium mt-2">Creation of <a class="text-xl font-bold">DApps</a> (Decentralised Application)</p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-6"><a class="lg:text-xl md:text-xl text-lg  font-bold">Creation</a> and <a class="lg:text-xl md:text-xl text-lg  font-bold">deployment</a> of smart contracts</p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-2"><a class="lg:text-xl md:text-xl text-lg  font-bold">Performance</a> and <a class="lg:text-xl md:text-xl text-lg  font-bold">security testing</a> of smart contracts</p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-2"><a class="lg:text-xl md:text-xl text-lg  font-bold">Optimisation</a> of smart contracts </p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-2"><a class="lg:text-xl md:text-xl text-lg  font-bold">Integration</a> of smart contracts </p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-2">Creation of <a class="lg:text-xl md:text-xl text-lg  font-bold">NFT collections</a></p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-2">Creation of <a class="lg:text-xl md:text-xl text-lg  font-bold">crypto-currencies</a></p>
+          <p class="lg:text-xl md:text-xl text-lg  font-medium mt-2">Creation of <a class="lg:text-xl md:text-xl text-lg font-bold">DApps</a></p>
         </div>
       </div>
     </div>
