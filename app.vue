@@ -124,9 +124,66 @@
       </div>
     </div>
 
+    <div class="grid bg-white ml-8 mr-8 lg:w-3/6 h-fit mb-10 lg:mb-20 p-6 md:p-8 rounded-xl justify-self-center">
+      <ModalTxProgress class="hidden absolute left-1/2 transform -translate-x-1/2 -translate-y-1/4" id="modal" />
+      <p class="lg:text-3xl text-2xl font-bold text-center ">Receive a free NFT</p>
+      <p class="lg:text-xl md:text-xl text-lg mt-4 font-medium text-left">Enter your Ethereum wallet address</p>
+      <p class="lg:text-xl md:text-xl text-lg font-medium text-left text-red-500 hidden" id="error">An error has occurred, please check your address!</p>
+      <p class="lg:text-xl md:text-xl text-lg font-medium text-left text-green-500 hidden" id="success">Successful transaction: See on <a id="link" class="underline decoration-sky-500 font-bold">polygonscan</a></p>
+      <input class="mt-2 outline-blue-500 outline-1 justify-self-center outline p-2 rounded w-full" v-model="wallet" placeholder="Your Wallet Address" />
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-1/2 justify-self-center mt-6" @click="mintNFT">Mint NFT</button>
+    </div>
 
     <Footer />
   </div>
 </template>
+
+<script>
+export default defineNuxtComponent({
+  data: () => ({
+      hash: "",
+      wallet: "",
+  }),
+
+  methods: {
+    async mintNFT() {
+      document.getElementById("modal").classList.toggle("hidden");
+      console.log('Minting NFT for address: ' + this.wallet);
+      const result = await this.asyncData();
+      if (result.result.success == true) {
+        console.log('NFT minted successfully');
+        console.log('Transaction hash: ' + result.result.hash);
+        this.hash = result.result.hash;
+        document.getElementById("link").href = "https://polygonscan.com/tx/" + this.hash;
+        document.getElementById("success").classList.toggle("hidden");
+      } else {
+        console.log('NFT minting failed');
+        document.getElementById("error").classList.toggle("hidden");
+      }
+      document.getElementById("modal").classList.toggle("hidden");
+    },
+
+    async asyncData () {
+      return {
+        result: await $fetch(
+          'https://api.balayre.xyz/contracts/mintNft', 
+          {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            cache: 'no-cache',
+            body: JSON.stringify({
+              "wallet": this.wallet
+            })
+          }
+        )
+      }
+    }
+}
+  
+})
+</script>
 
 
