@@ -17,7 +17,11 @@ export default defineNuxtConfig({
               { hid: 'og:description', name: 'og:description', content: 'Alexis Balayre - Full Stack Web3 Developer', id:"__meta-og:description" },
               { hid: 'og:image', name: 'og:image', content: 'https://www.alexis.balayre.xyz/preview.png' },
               { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-              { hid: 'twitter:site', name: 'twitter:site', content: 'Alexis Balayre' },
+              { hid: 'twitter:site', name: 'twitter:site', content: '@Belas_Eth' },
+              { hid: 'twitter:title', name: 'twitter:title', content: 'Alexis Balayre' },
+              { hid: 'twitter:description', name: 'twitter:description', content: 'Alexis Balayre - Full Stack Web3 Developer', id:"__meta-twitter:description" },
+              { hid: 'twitter:image', name: 'twitter:image', content: 'https://www.alexis.balayre.xyz/preview.png' },
+              { hid: 'keywords', name: 'keywords', content: 'Alexis Balayre, Blockchain, Solidity, Web3, Developer, Full Stack, Ethereum, Dapp' },
 
             ],
             link: [
