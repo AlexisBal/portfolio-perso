@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#09162E] grid w-screen max-w-screen h-full sm:h-full min-h-screen min-w-screen sm:min-h-screen sm:min-w-screen md:min-h-screen md:min-w-screen">
-    <div class="grid-flow-col grid lg:pb-5 w-screen h-fit bg-[] pt-8 pb-4 pl-8 pr-8" >
+    <div class="grid-flow-col grid lg:pb-5 w-screen h-fit pt-8 pb-4 pl-8 pr-8" >
       <p class="font-sans lg:text-2xl text-xl text-center text-white font-medium justify-self-start">Alexis Balayre</p>
       <div class="justify-self-end flex">
         <!-- Phone -->
@@ -58,7 +58,7 @@
     </div>
 
     <div class="outline outline-1 outline-white/20 bg-indigo-200/10 grid p-6 md:pl-8 md:pr-8 mr-8 ml-8 mt-10 md:mt-4 rounded-xl lg:ml-20 lg:mr-20 md:ml-20 md:mr-20 md:w-1/2 justify-self-center md:mt-10">
-      <div class="w-1/5 w-1/5 rounded-full justify-self-center outline outline-1 outline-white/50">
+      <div class="w-1/5 w-1/5 rounded-full justify-self-center">
         <img class="h-full w-full rounded-full" src="./assets/img/alexis.png"/>
       </div>
       <div class="justify-self-center mt-6">
