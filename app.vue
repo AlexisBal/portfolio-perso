@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <div class="ring-offset-white ring-offset-1/2 ring-white/20 ring-1 bg-indigo-200/10 grid p-6 md:pl-8 md:pr-8 mr-8 ml-8 mt-10 md:mt-4 rounded-xl lg:ml-20 lg:mr-20 md:ml-20 md:mr-20 md:w-1/2 justify-self-center md:mt-10">
+    <div class="ring-offset-white ring-offset-1/2 ring-white/20 ring-1 bg-indigo-200/10 grid p-6 md:pl-8 md:pr-8 mr-8 ml-8 mt-5 md:mt-10 md:mt-4 rounded-xl lg:ml-20 lg:mr-20 md:ml-20 md:mr-20 md:w-1/2 justify-self-center md:mt-10">
       <div class="w-1/5 w-1/5 rounded-full justify-self-center">
         <img class="h-full w-full rounded-full" src="./assets/img/alexis.png"/>
       </div>
@@ -69,7 +69,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col lg:flex-row lg:pl-40 lg:pr-40 mb-10 mt-10 lg:mb-20 lg:mt-20 justify-center w-screen">
+    <div class="flex flex-col lg:flex-row lg:pl-40 lg:pr-40 mb-10 mt-10 lg:mt-20 justify-center w-screen">
       <div class="lg:mt-0 ring-offset-white ring-offset-1/2 ring-white/20 ring-1 bg-indigo-200/10 grid p-6 md:mb-10 lg:p-8 md:p-8 mr-8 ml-8 mt-4 rounded-xl lg:w-full lg:ml-20 lg:mr-20 md:ml-20 md:mr-20">
         <p class="lg:text-3xl text-2xl font-bold text-center text-white">Experience</p>
         <div>
