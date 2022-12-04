@@ -9,13 +9,13 @@ export default defineNuxtConfig({
             meta: [
               { charset: 'utf-8' },
               { name: 'viewport', content: 'width=device-width, initial-scale=1 viewport-fit=cover' },
-              { hid: 'description', name: 'description', content: 'Alexis Balayre - Full Stack Web 3 Developer' },
+              { hid: 'description', name: 'description', content: 'Alexis Balayre - Full Stack Web 3 Developer', id:"__meta-description"  },
               { name: 'format-detection', content: 'telephone=no' },
               { hid: 'og:type', name: 'og:type', content: 'website' },
               { hid: 'og:site_name', name: 'og:site_name', content: 'Alexis Balayre' },
               { hid: 'og:title', name: 'og:title', content: 'Alexis Balayre' },
-              { hid: 'og:description', property: 'og:description', content: 'Alexis Balayre - Full Stack Web 3 Developer' },
-              { hid: 'og:image', property: 'og:image', content: '/preview.png' },
+              { hid: 'og:description', property: 'og:description', content: 'Alexis Balayre - Full Stack Web 3 Developer', id:"__meta-og:description" },
+              { hid: 'og:image', property: 'og:image', content: 'https://www.alexis.balayre.xyz/preview.png' },
             ],
             link: [
               { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
