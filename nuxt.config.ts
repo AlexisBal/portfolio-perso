@@ -9,13 +9,16 @@ export default defineNuxtConfig({
             meta: [
               { charset: 'utf-8' },
               { name: 'viewport', content: 'width=device-width, initial-scale=1 viewport-fit=cover' },
-              { hid: 'description', name: 'description', content: 'Alexis Balayre - Full Stack Web 3 Developer', id:"__meta-description"  },
+              { hid: 'description', name: 'description', content: 'Alexis Balayre - Full Stack Web3 Developer', id:"__meta-description"  },
               { name: 'format-detection', content: 'telephone=no' },
               { hid: 'og:type', name: 'og:type', content: 'website' },
               { hid: 'og:site_name', name: 'og:site_name', content: 'Alexis Balayre' },
               { hid: 'og:title', name: 'og:title', content: 'Alexis Balayre' },
-              { hid: 'og:description', property: 'og:description', content: 'Alexis Balayre - Full Stack Web 3 Developer', id:"__meta-og:description" },
-              { hid: 'og:image', property: 'og:image', content: 'https://www.alexis.balayre.xyz/preview.png' },
+              { hid: 'og:description', name: 'og:description', content: 'Alexis Balayre - Full Stack Web3 Developer', id:"__meta-og:description" },
+              { hid: 'og:image', name: 'og:image', content: 'https://www.alexis.balayre.xyz/preview.png' },
+              { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+              { hid: 'twitter:site', name: 'twitter:site', content: 'Alexis Balayre' },
+
             ],
             link: [
               { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
