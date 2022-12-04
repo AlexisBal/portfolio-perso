@@ -21,11 +21,7 @@ export default defineNuxtConfig({
             ]
         },
     },
-
-    modules: [
-      '@nuxtjs/sitemap'
-    ],
-
+    
     css: ['~/assets/css/main.css'],
 
     postcss: {
