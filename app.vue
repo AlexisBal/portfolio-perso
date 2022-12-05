@@ -129,7 +129,7 @@
       <p class="lg:text-xl md:text-xl text-lg mt-4 font-medium text-left text-white">Enter your Ethereum wallet address</p>
       <p class="lg:text-xl md:text-xl text-lg font-medium text-left text-red-500 hidden" id="error">An error has occurred, please check your address!</p>
       <p class="lg:text-xl md:text-xl text-lg font-medium text-left text-green-500 hidden" id="success">Successful transaction: See on <a id="link" class="underline decoration-sky-500 font-bold">polygonscan</a></p>
-      <input class="mt-2 justify-self-center outline p-2 rounded-lg md:rounded w-full" v-model="wallet" placeholder="Your Wallet Address" />
+      <input class="mt-2 justify-self-center p-2 rounded-lg md:rounded w-full" v-model="wallet" placeholder="Your Wallet Address" />
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-1/2 justify-self-center mt-6" @click="mintNFT">Mint NFT</button>
     </div>
 
