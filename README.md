@@ -1,6 +1,6 @@
 # Personal Portfolio 
 
-Have a look on [www.alexis.balayre.xyz](https://alexis.balayre.xyz) to learn more.
+Have a look on [www.alexis.balayre.xyz](https://alexis.balayre.xyz)
 
 ## Setup
 
